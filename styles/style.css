@@ -1,0 +1,131 @@
+.prueba {
+  color: #ff2200;
+}
+/*****************/
+
+body{
+  font-family: 'Lato', sans-serif;
+
+  background-color: #ffe8d6;
+}
+a {
+  text-decoration: none;
+}
+figure {
+  margin: 0 !important;  /*important ????????*/
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Raleway', sans-serif;
+}
+h1 {
+  color: #D74932;
+  font-size: 50px !important;  /*important ????????*/
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+p{
+  font-weight: 300;
+}
+.content {
+  text-align: center;
+}
+.cover {
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: url(../images/cover.jpg);      /*no engo cover , ash*/
+  display: flex;
+  height: 50vh; /*height: 50vh;*/
+  justify-content: center;
+}
+.icon {
+  animation: float 1.5s ease-out infinite
+  color: white;  /*siendo que le puse color, no toma el color, pero lo que hizo fue AGRANDAR EL ICONO.... porque ???*/
+  font-size: 80px !important;  /*important ????????*/
+  color: white;   /*me toco definirlo dos veces, para que tomara el color*/
+}
+.info {
+  background-color: #141419;
+  color: white;
+  padding: 20px;
+}
+.info h2{
+  font-size: 40px;
+  margin: 0;
+  text-align: center;
+}
+.infoContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+.infoContent .block h3 {
+  font-size: 25px;
+  margin: 5px 0 10px 0;
+}
+.infoContent .block {
+  padding: 8px;
+  width: 100%;
+}
+.infoContent .block .icono-social-size {
+  font-size: 70px;
+}
+
+.block{
+  margin-right: 80px;
+  margin-left:  80px;
+}
+
+
+/*Animacion*/
+@@keyframes float {
+  50% {
+    transform: translate(0, 20px);
+  }
+}
+/*Media queries*/
+@@media all and (min-with:769px) {
+  h1 {
+    font-size: 100px !important;
+  }
+  .infoContent .block {
+    padding: 8px;
+    width: 30%%;
+  }
+}
+
+
+
+
+
+
+
+/* Make the image fully responsive */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+/*imagen responsiva*/
+.img-responsiva{
+  width: 100%;
+  height: 100%;
+}
+
+
+/*
+https://www.w3schools.com/icons/fontawesome_icons_intro.asp
+*/
+/*iconos*/
+.icono-rojo {
+  color: red;
+}
+.icono-azul {
+  color: blue;
+}
+.icono-blanco {
+  color: white;
+}
+.icono-size {
+  font-size: 70px;
+}
