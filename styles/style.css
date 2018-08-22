@@ -71,11 +71,22 @@ p{
   font-size: 70px;
 }
 
+.btn {
+  padding: 10px 20px; /*Relleno del color amarillo*/
+  border-radius: 5px;
+  background-color: #4299D4;
+  color: #000000;
+  margin: 10px 0;
+  display: inline-block; /*para que pueda tener margin ???*/
+}
+
+
+/*BCF*/
 .block{
   margin-right: 80px;
   margin-left:  80px;
 }
-
+/*BCF*/
 
 /*Animacion*/
 @@keyframes float {
