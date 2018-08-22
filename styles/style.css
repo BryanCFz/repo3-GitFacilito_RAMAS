@@ -78,6 +78,12 @@ p{
   color: #000000;
   margin: 10px 0;
   display: inline-block; /*para que pueda tener margin ???*/
+
+  /*Esto es del HOVER, para que sea mas lento en expandirse*/
+  transition: 0.3s;
+}
+.btn:hover {
+  transform: scale(1.2);
 }
 
 
