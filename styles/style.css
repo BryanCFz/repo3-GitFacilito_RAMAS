@@ -34,7 +34,7 @@ p {
   background-size: cover;
   background: url(../images/cover.jpg);      /*no engo cover , ash*/
   display: flex;
-  height: 50vh; /*height: 50vh;*/
+  height: 50vh; /*height: 100vh;*/
   justify-content: center;
 }
 .icon {
@@ -76,6 +76,7 @@ p {
 .btn {
   padding: 10px 20px; /*Relleno del color amarillo*/
   border-radius: 5px;
+  border: 2px solid #04e1ff;
   background-color: #4299D4;
   color: #000000;
   margin: 10px 0;
@@ -93,8 +94,8 @@ p {
 
 /*BCF*/
 .block{
-  margin-right: 20px;  /*80px*/
-  margin-left:  20px;  /*80px*/
+  margin-right: 106px;  /*80px*/
+  margin-left:  106px;  /*80px*/
 }
 /*BCF*/
 
